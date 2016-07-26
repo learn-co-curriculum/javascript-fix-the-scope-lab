@@ -2,13 +2,13 @@
 
 describe('myAnimal()', function() {
   it('returns my animal', () => {
-    expect(myAnimal()).to.equal('dog')
+    expect(myAnimal()).toEqual('dog')
   })
 })
 
 describe('yourAnimal()', function() {
   it('returns your animal', function(){
-    expect(yourAnimal()).to.equal('cat')
+    expect(yourAnimal()).toEqual('cat')
   })
 
   it('does not hard-code the answer', function() {
@@ -19,7 +19,7 @@ describe('yourAnimal()', function() {
 describe('add2(n)', function() {
   it('adds two to n', function() {
     const n = Math.floor(Math.random() * 1000)
-    expect(add2(n)).to.equal(n + 2)
+    expect(add2(n)).toEqual(n + 2)
   })
 })
 
@@ -31,7 +31,7 @@ describe('funkyFunction()', function() {
 
 describe('theFunk', function() {
   it('is "FUNKY!"', function() {
-    expect(theFunk()).to.equal('FUNKY!')
+    expect(theFunk()).toEqual('FUNKY!')
   })
 
   it('does not hard-code the answer', function() {
